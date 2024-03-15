@@ -1,28 +1,32 @@
 {
-  "name": "jquery",
-  "version": "1.11.3",
-  "main": "dist/jquery.js",
-  "license": "MIT",
+  "name": "flexslider",
+  "version": "2.7.2",
+  "homepage": "https://github.com/woocommerce/FlexSlider",
+  "authors": [
+    "Automattic <jeff@woothemes.com>"
+  ],
+  "description": "An awesome, fully responsive jQuery slider toolkit.",
+  "main": [
+    "jquery.flexslider.js",
+    "flexslider.css"
+  ],
+  "keywords": [
+    "flexslider",
+    "jquery",
+    "slider",
+    "woothemes",
+    "automattic"
+  ],
+  "license": "GPLv2 and later",
   "ignore": [
     "**/.*",
-    "build",
-    "dist/cdn",
-    "speed",
+    "node_modules",
+    "bower_components",
     "test",
-    "*.md",
-    "AUTHORS.txt",
-    "Gruntfile.js",
-    "package.json"
+    "tests",
+    "demo"
   ],
-  "devDependencies": {
-    "sizzle": "2.1.1-jquery.2.1.2",
-    "requirejs": "2.1.10",
-    "qunit": "1.14.0",
-    "sinon": "1.8.1"
-  },
-  "keywords": [
-    "jquery",
-    "javascript",
-    "library"
-  ]
+  "dependencies": {
+    "jquery": ">=1.11.3"
+  }
 }
